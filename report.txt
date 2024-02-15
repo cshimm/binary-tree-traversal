@@ -1,0 +1,10 @@
+Approach:
+In order to make the testing process as transparent as possible
+I decided to create a test tree that was based off of the sample
+tree from the slides. 
+In order to make assertions I decided that instead of printing the visited
+node, I would append the nodes value to an array and compare that 
+array to an expected array. 
+Challenges:
+Implementing levelorder traversal was hard to understand at first given 
+the many different moving parts that are needed to implement it.
